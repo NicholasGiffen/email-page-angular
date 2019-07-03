@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    justify-content: left;
+  }
+
+#user-photo{
+    background: url(https://images.askmen.com/1080x540/2016/01/25-021526-facebook_profile_picture_affects_chances_of_getting_hired.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    $size: 100px;
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    background-size: auto 100%;
+    
+}
+
+* {
+    background: rgba(0, 0, 0, 0.04)
+}
+//pro tip select  eveything 
