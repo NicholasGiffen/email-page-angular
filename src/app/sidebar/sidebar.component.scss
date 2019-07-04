@@ -3,17 +3,31 @@
     justify-content: left;
   }
 
-#user-photo{
-    background: url(https://images.askmen.com/1080x540/2016/01/25-021526-facebook_profile_picture_affects_chances_of_getting_hired.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
-    $size: 100px;
-    width: $size;
-    height: $size;
+  img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    background-size: auto 100%;
-    
+  }
+
+i {
+  font-size: 18px;
+  margin-right: 5px;
+  color: #007bff;
+}
+.main-button{
+  width: 200px;
+  }
+p {
+  margin: 0;
 }
 
-* {
-    background: rgba(0, 0, 0, 0.04)
+.shift {
+  margin-top: 30px;
 }
+  
+
+// * {
+//     background: rgba(0, 0, 0, 0.04)
+// }
 //pro tip select  eveything 
