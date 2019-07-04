@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EmailsComponent } from './emails/emails.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { EmailsComponent } from './emails/emails.component';
     UsersComponent,
     DetailsComponent,
     EmailsComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,
