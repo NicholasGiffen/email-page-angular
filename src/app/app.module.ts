@@ -13,6 +13,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { EmailsComponent } from './emails/emails.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { ParagraphChangeDirective } from './paragraph-change.directive';
+import { OnHoverDirective } from './on-hover.directive';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     DetailsComponent,
     EmailsComponent,
     NavBarComponent,
+    ParagraphChangeDirective,
+    OnHoverDirective,
   ],
   imports: [
     BrowserModule,
