@@ -15,6 +15,10 @@ import { EmailsComponent } from './emails/emails.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ParagraphChangeDirective } from './paragraph-change.directive';
 import { OnHoverDirective } from './on-hover.directive';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { MessageComponent } from './message/message.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,12 +31,16 @@ import { OnHoverDirective } from './on-hover.directive';
     NavBarComponent,
     ParagraphChangeDirective,
     OnHoverDirective,
+    LoginComponent,
+    RegisterComponent,
+    MessageComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule, //had to add the commas, since we added HttpClientModule below 
     HttpClientModule,
-    BrowserAnimationsModule 
+    BrowserAnimationsModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
