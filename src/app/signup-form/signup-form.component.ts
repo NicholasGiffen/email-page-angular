@@ -20,7 +20,10 @@ export class SignupFormComponent implements OnInit {
         'retype': new FormControl(null,
           [Validators.required,
           Validators.pattern('^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$')]),
-          'name': new FormControl(null)
+        'name': new FormControl(null, [Validators.required, Validators.minLength(3)]),
+        'phone': new FormControl(null, [Validators.required, Validators.minLength(10),
+        Validators.pattern('/^-?(0|[1-9]\d*)?$/')]),
+
     })
   }
 
